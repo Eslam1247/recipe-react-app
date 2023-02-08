@@ -1,0 +1,44 @@
+.allRecipe {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.items {
+  width: 95%;
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: 1fr  1fr 1fr;
+  align-content: center
+  ;
+  justify-items: center;
+}
+.all-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+.allRecipe span {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1006px) {
+    .items{
+        grid-template-columns: 1fr  1fr;
+        align-content: center;
+            justify-items: "center";
+            column-gap: 40px
+    }
+}
+@media screen and (max-width: 666px) {
+    .items {
+        grid-template-columns: 1fr ;
+        align-content: center;
+        justify-items: "center";
+        column-gap: 40px
+    }
+}

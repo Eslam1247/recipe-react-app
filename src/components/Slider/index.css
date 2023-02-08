@@ -1,0 +1,69 @@
+.slider {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.img-content {
+  height: 550px;
+}
+.img-content img {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  opacity: 0.8;
+  /* background-color: black ; */
+}
+.prev {
+  color: rgb(30, 193, 41);
+  background-color: rgb(243, 243, 249);
+  font-size: 3rem;
+  border-radius: 50px;
+  height: 3rem;
+  width: 3rem;
+  left: 20px;
+  position: absolute;
+  top: 200px;
+  z-index:1000 ;
+  /* width: 100%; */
+}
+.next {
+  color: rgb(30, 193, 41);
+  font-size: 2rem;
+  right: 10px;
+  position: absolute;
+  background-color: rgb(235, 235, 244);
+  top: 200px;
+  border-radius: 50px;
+  height: 3rem;
+  width: 3rem;
+  z-index: 1000;
+  /* width: 100%; */
+}
+.content {
+  font-size: 2rem;
+  font-weight: 500;
+  position: absolute;
+  color: rgb(255, 251, 251);
+  top: 200px;
+  left: 40%;
+  /* z-index: 1000; */
+}
+/* .next:hover{
+  font-size: 1rem;
+  border-radius: 50px;
+    height: 1rem;
+    width: 1rem;
+    transition: 0.3s;
+    cursor: pointer;
+} */
+/* .prev:hover {
+  font-size: 1rem;
+  border-radius: 50px;
+  height: 1rem;
+  width: 1rem;
+  transition: 0.3s;
+  cursor: pointer;
+} */
+
+
